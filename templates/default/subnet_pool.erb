@@ -1,4 +1,5 @@
 pool {
+  # monitor: 80% 90% Y
   <% if @peer -%>
   failover peer "<%= node['domain'] %>";
   <% end -%>
